@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Page</title>
+    <style>
+        body{
+            background-color: silver;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #99B080;
+            height: 300px;
+        }
+        .header > .headings{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-self: center;
+        }
+        .header > .headings > p{
+            align-self: center;
+        }
+        .navigation{
+            display: flex;
+            list-style: none;
+            background-color: black;
+            margin-bottom: 0;
+        }
+        .navigation > li{
+            width: 40px;
+            height: 20px;
+            color: white;
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+        }
+        .about-us{
+            width: 20%;
+            background-color: #f1f1f1;
+            padding: 20;
+            overflow-x: auto;
+        }
+        .personal > div {
+            height: 150px;
+            background-color: rgb(127, 133, 133);
+            padding: 15;
+        }
+        .additional > div {
+            height: 30px;
+            background-color: rgb(127, 133, 133);
+            padding: 15;
+            margin-top: 10;
+        }
+        .main-body{
+            width: 80%;
+            background-color: rgb(235, 239, 239);
+            padding: 20;
+        }
+        .content-one > div {
+            height: 150px;
+            background-color: rgb(127, 133, 133);
+            padding: 15;
+        }
+        .content-two > div {
+            height: 150px;
+            background-color: rgb(127, 133, 133);
+            padding: 15;
+            margin-top: 10;
+        }
+        .footer {
+            background-color: azure;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="headings">
+                <h1>My Website</h2>
+                <p>Write a flexible layout</p>
+            </div>    
+            <ul class="navigation">
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="about-us">
+                <div class="personal">
+                    <h2>About Me</h2>
+                    <h4>Photo of me:</h4>
+                    <div>Image</div>
+                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="additional">
+                    <h2>More text</h2>
+                    <p>Some text about me in ....</p>
+                    <div>Image</div>
+                    <div>Image</div>
+                    <div>Image</div>
+                </div>
+            </div>
+            <div class="main-body">
+                <div class="content-one">
+                    <h2>TITLE HEADING</h2>
+                    <h4>Title description, Dec 7, 2017</h4>
+                    <div>Image</div>
+                    <p>Some text..
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita</p>
+                </div>
+                <div class="content-two">
+                    <h2>TITLE HEADING</h2>
+                    <h4>Title description, Dec 7, 2017</h4>
+                    <div>Image</div>
+                    <p>Some text..
+                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita</p>
+                </div>
+            </div>
+        </div>    
+        <footer class="footer">
+            <h2>Footer<h2>
+        </footer>
+    </div>
+
+    <header>
+</body>
+</html>
